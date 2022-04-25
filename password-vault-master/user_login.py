@@ -23,19 +23,23 @@ class User:
         self.user_name = user_name
         self.email = email
         self.password = password
-        
+
 
     def save_user(self):
         '''
         save_user: saves User objects into user_list
+
         '''
+
         User.user_list.append(self)
+
 
     def delete_user(self):
         '''
         delete_user: removes User objects from user_list
         '''
         User.user_list.remove(self)
+        
 
     @classmethod
     def user_login(cls, user_name, password):
