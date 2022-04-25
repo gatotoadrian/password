@@ -34,14 +34,16 @@ class TestUser(unittest.TestCase):
         method to clean up the user
         '''
         User.user_list = []
-        
+
 
     def test_save_user(self):
         '''
         to save user object to our user_list
         '''
+        
         self.new_user.save_user()
         self.assertEqual(len(User.user_list), 1)
+
 
     def test_delete_user(self):
         '''
