@@ -34,6 +34,7 @@ class TestUser(unittest.TestCase):
         method to clean up the user
         '''
         User.user_list = []
+        
 
     def test_save_user(self):
         '''
