@@ -20,6 +20,7 @@ class TestUser(unittest.TestCase):
         '''
         test initialization to test object instantiation
         '''
+        
         self.assertEqual(self.new_user.first_name, "Gatoto")
         self.assertEqual(self.new_user.sur_name, "Adrian")
         self.assertEqual(self.new_user.user_name, "shaban")
