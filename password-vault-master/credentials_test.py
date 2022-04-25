@@ -34,12 +34,14 @@ class TestUser(unittest.TestCase):
         '''
         Credentials.credentials_list = []
 
+
     def test_save_credentials(self):
         '''
         method to save credentials
         '''
         self.new_credentials.add_credentials()
         self.assertEqual(len(Credentials.credentials_list), 1)
+
 
 if __name__ == "__main__":
     unittest.nain()
