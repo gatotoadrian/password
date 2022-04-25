@@ -16,7 +16,7 @@ Password Vault runs on the terminal to help users store passwords and usernames 
 ### Cloning
 
 - In your terminal:
-  $ git clone https://github.com/Aaron-Ekal/password-vault/
+  $ git clone https://github.com/gatotoadrian/password.git
 
 ## Running the Application
 
