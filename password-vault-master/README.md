@@ -38,4 +38,5 @@ Password Vault runs on the terminal to help users store passwords and usernames 
 
 ## License
 
+
 MIT &copy;2022 [Gatotoadrian](hhttps://github.com/gatotoadrian/password.git/)
