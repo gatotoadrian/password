@@ -16,13 +16,14 @@ class User:
             email: New user email address.
             password: New user account password.
         '''
-        
+
 
         self.first_name = first_name
         self.sur_name = sur_name
         self.user_name = user_name
         self.email = email
         self.password = password
+        
 
     def save_user(self):
         '''
