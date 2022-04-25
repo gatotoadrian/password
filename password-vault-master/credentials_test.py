@@ -10,13 +10,14 @@ class TestUser(unittest.TestCase):
     Args:
         unittest.TestCase: TestCase class creates test cases
     '''
-    
+
 
     def setUp(self):
         '''
         Method to create test cases for the credentials class
         '''
         self.new_credentials = Credentials("Twitter", "AaronEkal", "qwerty123")
+
 
     def test__init__(self):
         '''
