@@ -5,7 +5,7 @@ class User:
 
 
     user_list = []
-    
+
 
     def __init__(self, first_name, sur_name, user_name, email, password):
         '''
@@ -16,6 +16,7 @@ class User:
             email: New user email address.
             password: New user account password.
         '''
+        
 
         self.first_name = first_name
         self.sur_name = sur_name
