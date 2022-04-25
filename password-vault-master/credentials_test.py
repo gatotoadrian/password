@@ -27,6 +27,7 @@ class TestUser(unittest.TestCase):
         self.assertEqual(self.new_credentials.user_name, "AaronEkal")
         self.assertEqual(self.new_credentials.password, "qwerty123")
 
+
     def tearDown(self):
         '''
         Method to clean up after test case
