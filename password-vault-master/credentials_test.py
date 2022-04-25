@@ -10,6 +10,7 @@ class TestUser(unittest.TestCase):
     Args:
         unittest.TestCase: TestCase class creates test cases
     '''
+    
 
     def setUp(self):
         '''
